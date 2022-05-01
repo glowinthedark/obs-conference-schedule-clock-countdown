@@ -4,7 +4,10 @@ OBS plugin that displays a clock, current event info, and a countdown to the eve
 
 ![](obs-schedule-clock-countdown.png)
 
-1. OBS Menu > Tools > Scripts > cli k[:heavy_plus_sign:] to add the script
+
+## Script Installation and Configuration
+
+1. In OBS Menu > **Tools** > **Scripts** > clik the [:heavy_plus_sign:] to add the script
 2. Set the clock format, e.g. `%H:%M` to display `14:57` or `%I:%M%p` for `02:57PM`. For a complete list of formats see below.
 3. Select the pre-existing text widgets in your current scene for:
 
@@ -26,6 +29,8 @@ schedule = {
 	{from = "20:00", to = "21:15", description = "Academy: How to Recognise Different Types of Trees", by = "Hon Pindale"},
 }
 ```
+
+5. After updating the `schedule` table in the script or making other changes click :arrows_counterclockwise: to reload the script. As an alternative, right-click the script in the **Scripts** panel and select **Reload**.
 
 NOTE:
 * If the current time is within the \[from..to\] range then the event details are shown,
