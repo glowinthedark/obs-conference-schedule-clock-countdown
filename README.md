@@ -2,6 +2,8 @@
 
 OBS plugin that displays a clock, current event info, and a countdown to the event end or to next event info if no event is currently in progress
 
+![](obs-schedule-clock-countdown.png)
+
 1. OBS Menu > Tools > Scripts > cli k[:heavy_plus_sign:] to add the script
 2. Set the clock format, e.g. `%H:%M` to display `14:57` or `%I:%M%p` for `02:57PM`. For a complete list of formats see below.
 3. Select the pre-existing text widgets in your current scene for:
