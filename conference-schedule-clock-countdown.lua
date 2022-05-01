@@ -54,10 +54,6 @@ schedule = {
 	{from = "14:15", to = "15:30", description = "Advanced: Something Completely Different", by = "Br Rindale"},
 	{from = "17:00", to = "19:55", description = "Professional: Bicycle Repair Man Presentation", by = "Sr Lindale"},
 	{from = "20:00", to = "21:15", description = "Academy: How to Recognise Different Types of Trees", by = "Hon Pindale"},
-	{from = "21:17", to = "21:25", description = "Intermediate: How to Irritate People", by = "Prof Pandale"},
-	-- {from = "23:30", to = "23:36", description = "Professional: Defending against attack with fruit", by = "Sr Lindale"},
-	{from = "23:39", to = "23:44", description = "Advanced: Something Completely Different ", by = "Br Rindale"}
-	-- {from = "23:50", to = "23:59", description = "Pro: Bicycle Repair Man ", by = "Sr Lindale"},
 }
 -- END SCHEDULE CONFIGURATION --
 
