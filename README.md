@@ -39,7 +39,7 @@ NOTE:
 * If there is no current event then the next event details are shown prefixed with "NEXT:",
 	and a countdown to the next event **START** (the `from` field).
 
-### DATE FORMATTING
+### Date/time format for the main clock
 
 ```
 	%a weekday (Wed)
