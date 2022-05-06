@@ -1,6 +1,6 @@
 # OBS Plugin: Conference Schedule with Clock and Countdown
 
-OBS plugin that displays a clock, current event info, and a countdown to the end of the current event or, if no event is currently in progress, a countdown to the start of the next event along with the event details. The event schedule is hardcoded in the script in the variable named `schedule` as explained below.
+OBS plugin that displays a clock, current event info, and a countdown to the end of the current event or, if no event is currently in progress, a countdown to the start of the next event along with the event details. The event schedule is hardcoded in the script in the variable named `schedule` as explained [below](#datetime-format-for-the-main-clock).
 
 ![](obs-schedule-clock-countdown.png)
 
