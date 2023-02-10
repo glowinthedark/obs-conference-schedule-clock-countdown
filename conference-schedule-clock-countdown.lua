@@ -1,5 +1,7 @@
 --[[ OBS Studio Dynamic Schedule display with clock, countdown and event info
 
+URL: https://github.com/glowinthedark/obs-conference-schedule-clock-countdown/blob/master/conference-schedule-clock-countdown.lua
+
 USAGE: 
 
 1. OBS Menu > Tools > Scripts > [+] to add script
