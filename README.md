@@ -7,7 +7,7 @@ OBS plugin that displays a clock, current event info, and a countdown to the end
 
 ## Script Installation and Configuration
 
-1. In OBS Menu > **Tools** > **Scripts** > clik the :heavy_plus_sign: button to add the script [conference-schedule-clock-countdown.lua](conference-schedule-clock-countdown.lua).
+1. In OBS Menu > **Tools** > **Scripts** > click the :heavy_plus_sign: button to add the script [conference-schedule-clock-countdown.lua](conference-schedule-clock-countdown.lua).
 2. Set the clock format, e.g. `%H:%M` to display `14:57` or `%I:%M%p` for `02:57PM`. For a complete list of formats see [below](#datetime-format-for-the-main-clock).
 3. Configure the scene
 
@@ -24,7 +24,7 @@ After configuration your plugin config dialog will look similar to this:
 
 ![](obs-schedule-clock-countdown-plugin-config.png)
 
-  #### OPTION B: _Use providerd sample scene_:
+  #### OPTION B: _Use provided sample scene_:
   
 > - Download the file [examples/example_scene_clock_countdown.json](examples/example_scene_clock_countdown.json) and import it via **Scene collection** > **Import** > replace missing assets with your own images for logo and background.
 
@@ -46,7 +46,7 @@ schedule = {
 
 NOTE:
 * If the current time is within the \[from..to\] range then the event details are shown,
-	and a countown to event **END** (the `to` field).
+	and a countdown to event **END** (the `to` field).
 
 * If there is no current event then the next event details are shown prefixed with "NEXT:",
 	and a countdown to the next event **START** (the `from` field).
