@@ -20,6 +20,10 @@ OBS plugin that displays a clock, current event info, and a countdown to the end
 > - presenter name
 > - countdown (see below for details)
 
+After configuration your plugin config dialog will look similar to this:
+
+![](obs-schedule-clock-countdown-plugin-config.png)
+
   #### OPTION B: _Use providerd sample scene_:
   
 > - Download the file [examples/example_scene_clock_countdown.json](examples/example_scene_clock_countdown.json) and import it via **Scene collection** > **Import** > replace missing assets with your own images for logo and background.
